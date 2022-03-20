@@ -59,5 +59,8 @@ fun main(args: Array<String>) {
     println(my2ArrayOf[0])
     my2ArrayOf [0] = 50
     println(my2ArrayOf[0])
+
+    my2ArrayOf = arrayOf(5,5,5)
+
     ///////////////////////////
 }
