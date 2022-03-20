@@ -37,8 +37,8 @@ fun main(args: Array<String>) {
     //Массивы
     ///////////////////////////
 
-    var myArrayOf = arrayOf (1,2,3)
-    println(myArrayOf[0])
+    var my1ArrayOf = arrayOf (1,2,3)
+    println(my1ArrayOf[0])
 
     val wordArray1 = arrayOf("15", "multi-terrier", "c-to-c", "dynamic","pervasive")
     val wordArray2 = arrayOf("10", "dog", "a-to-a", "dynamic","nestle")
@@ -53,8 +53,11 @@ fun main(args: Array<String>) {
     val rand3 = (Math.random() * arraySize3.toInt())
 
     val phrase = "${wordArray1[rand1.toInt()]} ${wordArray2[rand2.toInt()]} ${wordArray3[rand3.toInt()]}"
-    println(phrase)
+    println(phrase + "\n")
     ///////////////////////////
-
-
+    var my2ArrayOf: Array<Int> = arrayOf (20,30,40)
+    println(my2ArrayOf[0])
+    my2ArrayOf [0] = 50
+    println(my2ArrayOf[0])
+    ///////////////////////////
 }
